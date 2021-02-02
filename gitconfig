@@ -1,0 +1,16 @@
+[user]
+	name = Ben Patterson
+	email = 7127765+bmizepatterson@users.noreply.github.com
+[alias]
+	hist = log --graph --abbrev-commit --all --pretty=oneline
+	history = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	co = checkout
+	b = branch -av
+	st = status
+	type = cat-file -t
+	dump = cat-file -p
+	sb = show-branch
+[core]
+	editor = code --wait
+[fetch]
+	prune = true
