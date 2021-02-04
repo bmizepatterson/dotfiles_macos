@@ -15,4 +15,6 @@ brew "libpq", link: true
 brew "mas"
 # General-purpose scripting language
 brew "php@7.3", link: true
+# Web browser
+cask "google-chrome"
 mas "Microsoft Excel", id: 462058435
