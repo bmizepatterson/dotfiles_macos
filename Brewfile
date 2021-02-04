@@ -17,4 +17,6 @@ brew "mas"
 brew "php@7.3", link: true
 # Web browser
 cask "google-chrome"
+# Open-source code editor
+cask "visual-studio-code"
 mas "Microsoft Excel", id: 462058435
