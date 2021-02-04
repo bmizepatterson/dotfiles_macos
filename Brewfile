@@ -15,6 +15,4 @@ brew "libpq", link: true
 brew "mas"
 # General-purpose scripting language
 brew "php@7.3", link: true
-# Application launcher and productivity software
-cask "alfred"
 mas "Microsoft Excel", id: 462058435
