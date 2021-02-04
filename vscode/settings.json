@@ -1,0 +1,27 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.enabled": false,
+    "gitlens.statusBar.enabled": false,
+    "gitlens.hovers.enabled": false,
+    "gitlens.views.lineHistory.enabled": true,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "default",
+            "filenamePattern": "git-rebase-todo"
+        }
+    ],
+    "gitlens.defaultDateStyle": "absolute",
+    "editor.renderWhitespace": "boundary",
+    "workbench.editor.enablePreview": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "git.confirmSync": false,
+    "editor.minimap.enabled": false,
+    "css.validate": false,
+    "window.zoomLevel": 0,
+    "files.associations": {
+        "Brewfile": "shellscript"
+    }
+}
