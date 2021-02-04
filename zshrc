@@ -2,6 +2,7 @@
 # Syntax highlighting for man pages using bat
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
+export DOTFILES="$HOME/.dotfiles"
 
 
 # Change ZSH Options
@@ -10,7 +11,6 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 # Create Aliases
 alias ls='exa -laFh --git'
 alias exa='exa -laFh --git'
-alias brew-bundle='brew bundle dump --force --describe'
 
 # Customize Prompts
 PROMPT='
@@ -27,6 +27,26 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 # Write Handy Functions
 function mkcd() {
   mkdir -p "$@" && cd "$_";
+}
+
+# Ensure Brewfile is only created in ~/.dotfiles directory
+function bbd() {
+
+  local startingDirectory=$PWD;
+
+  if [[ $startingDirectory != $DOTFILES ]]; then
+    echo "Changing to $DOTFILES";
+    cd $DOTFILES;
+  fi
+
+  echo "Dumping Brewfile";
+  brew bundle dump --force --describe;
+
+  if [[ $startingDirectory != $DOTFILES ]]; then
+    echo "Returning to $startingDirectory";
+    cd $startingDirectory;
+  fi
+
 }
 
 
