@@ -13,6 +13,8 @@ brew "httpie"
 brew "libpq", link: true
 # Mac App Store command-line interface
 brew "mas"
+# Platform built on V8 to build network applications
+brew "node"
 # General-purpose scripting language
 brew "php@7.3", link: true
 # Web browser
