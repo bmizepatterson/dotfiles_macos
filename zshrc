@@ -14,7 +14,7 @@ alias exa='exa -laFh --git'
 
 # Customize Prompts
 PROMPT='
-%1~ %L %# '
+%~ %L %# '
 
 RPROMPT='%*'
 
