@@ -20,8 +20,12 @@ RPROMPT='%*'
 
 
 # Add Locations to the $PATH Variable
+
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+# Add Composer bin
+export PATH="$PATH:$HOME/.composer/vendor/bin"
 
 
 # Write Handy Functions
