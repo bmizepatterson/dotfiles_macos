@@ -5,13 +5,9 @@
     "gitlens.codeLens.enabled": false,
     "gitlens.statusBar.enabled": false,
     "gitlens.hovers.enabled": false,
-    "gitlens.views.lineHistory.enabled": true,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "default",
-            "filenamePattern": "git-rebase-todo"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "git-rebase-todo": "default"
+    },
     "gitlens.defaultDateStyle": "absolute",
     "editor.renderWhitespace": "boundary",
     "workbench.editor.enablePreview": false,
@@ -20,8 +16,26 @@
     "git.confirmSync": false,
     "editor.minimap.enabled": false,
     "css.validate": false,
-    "window.zoomLevel": 0,
     "files.associations": {
         "Brewfile": "shellscript"
-    }
+    },
+    "angular.enable-experimental-ivy-prompt": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "eslint.workingDirectories": ["angular"],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "prettier.ignorePath": "/**/.prettierignore",
+    "prettier.tabWidth": 4,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.openEditors.sortOrder": "alphabetical",
+    "editor.rulers": [
+        80
+    ],
+    "editor.linkedEditing": true,
+    "intelephense.diagnostics.undefinedFunctions": false,
+    "intelephense.environment.phpVersion": "7.3",
+    "extensions.ignoreRecommendations": true
 }
