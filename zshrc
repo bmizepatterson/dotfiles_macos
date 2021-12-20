@@ -11,6 +11,7 @@ export DOTFILES="$HOME/.dotfiles"
 # Create Aliases
 alias ls='exa -laFh --git'
 alias exa='exa -laFh --git'
+alias pa='php artisan'
 
 # Customize Prompts
 PROMPT='
