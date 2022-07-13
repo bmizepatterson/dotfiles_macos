@@ -25,7 +25,6 @@
     "eslint.workingDirectories": ["angular"],
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
     "security.workspace.trust.untrustedFiles": "open",
     "prettier.ignorePath": "/**/.prettierignore",
     "prettier.tabWidth": 4,
@@ -36,6 +35,7 @@
     ],
     "editor.linkedEditing": true,
     "intelephense.diagnostics.undefinedFunctions": false,
-    "intelephense.environment.phpVersion": "7.3",
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
+    "editor.formatOnSave": true,
+    "window.zoomLevel": -1
 }
