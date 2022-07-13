@@ -26,7 +26,7 @@ Bootstrapping is automated with [Dotbot](https://github.com/anishathalye/dotbot)
 
     ```zsh
     # Generate SSH key in default location (~/.ssh/config)
-    ssh-keygen -t ed25519 -C "your_email@example.com"
+    ssh-keygen -t ed25519 -C "7127765+bmizepatterson@users.noreply.github.com"
 
     # Start the ssh-agent
     eval "$(ssh-agent -s)"
