@@ -8,9 +8,12 @@ Bootstrapping is automated with [Dotbot](https://github.com/anishathalye/dotbot)
 
 1. `xcode-select --install` (Command Line Tools are required for Git and Homebrew)
 2. Install Homebrew and add it to the path:
-  `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-  `(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/benpatterson/.zprofile`
-  `eval "$(/opt/homebrew/bin/brew shellenv)"`
+
+   `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+   
+   `(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/benpatterson/.zprofile`
+   
+   `eval "$(/opt/homebrew/bin/brew shellenv)"`
 
 2. `git clone https://github.com/bmizepatterson/dotfiles_macos.git ~/.dotfiles`. We'll start with `https` but switch to `ssh` after everything is installed.
 
