@@ -16,13 +16,9 @@ code --list-extensions > "$DOTFILES/vscode/vscode_extensions"
 
    ```bash
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-   ```
-   
-   ```bash
+
    (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/benpatterson/.zprofile
-   ```
    
-   ```bash
    eval "$(/opt/homebrew/bin/brew shellenv)"`
    ```
 
