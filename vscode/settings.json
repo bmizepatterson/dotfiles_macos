@@ -30,12 +30,9 @@
     "prettier.tabWidth": 4,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "explorer.openEditors.sortOrder": "alphabetical",
-    "editor.rulers": [
-        80
-    ],
+    "editor.rulers": [80],
     "editor.linkedEditing": true,
     "intelephense.diagnostics.undefinedFunctions": false,
     "extensions.ignoreRecommendations": true,
-    "editor.formatOnSave": true,
     "window.zoomLevel": -1
 }
