@@ -24,3 +24,7 @@
     command: vscode/setup_vscode.zsh
     stdout: true
     stderr: true
+  -
+    command: ./install_composer.sh
+    stdout: true
+    stderr: true
