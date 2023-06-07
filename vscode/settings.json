@@ -34,5 +34,5 @@
     "editor.linkedEditing": true,
     "intelephense.diagnostics.undefinedFunctions": false,
     "extensions.ignoreRecommendations": true,
-    "window.zoomLevel": -1
+    "git.autofetch": true
 }
