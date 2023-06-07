@@ -7,6 +7,19 @@ Bootstrapping is automated with [Dotbot](https://github.com/anishathalye/dotbot)
 ## Ready to set up a new computer?
 
 1. `xcode-select --install` (Command Line Tools are required for Git and Homebrew)
+2. Install Homebrew and add it to the path:
+
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+   
+   ```bash
+   (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/benpatterson/.zprofile
+   ```
+   
+   ```bash
+   eval "$(/opt/homebrew/bin/brew shellenv)"`
+   ```
 
 2. `git clone https://github.com/bmizepatterson/dotfiles_macos.git ~/.dotfiles`. We'll start with `https` but switch to `ssh` after everything is installed.
 
