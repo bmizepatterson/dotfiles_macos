@@ -42,7 +42,7 @@ brew "mas"
 # Platform built on V8 to build network applications
 brew "node"
 # General-purpose scripting language
-brew "php@7.3"
+#brew "php@7.3"
 # General-purpose scripting language
 brew "php@8.0", link: true
 # Object-relational database system
@@ -52,8 +52,8 @@ brew "tcl-tk"
 # Command-line helper for the 1Password password manager
 cask "1password-cli"
 # Web browser
-cask "google-chrome"
+#cask "google-chrome"
 # Open-source code editor
 cask "visual-studio-code"
-mas "Microsoft Excel", id: 462058435
-mas "Microsoft Word", id: 462054704
+#mas "Microsoft Excel", id: 462058435
+#mas "Microsoft Word", id: 462054704
