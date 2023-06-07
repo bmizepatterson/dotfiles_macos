@@ -4,6 +4,11 @@ I learned about dotfiles from [Patrick McDonald](http://dotfiles.eieio.xyz) (cf.
 
 Bootstrapping is automated with [Dotbot](https://github.com/anishathalye/dotbot).
 
+## Capturing installed VS Code Extensions
+```bash
+code --list-extensions > "$DOTFILES/vscode/vscode_extensions"
+```
+
 ## Ready to set up a new computer?
 
 1. `xcode-select --install` (Command Line Tools are required for Git and Homebrew)
