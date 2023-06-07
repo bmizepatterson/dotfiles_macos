@@ -54,5 +54,12 @@ function bbd() {
 
 }
 
+function dotfiles() {
+  bbd;
+
+  echo "Refreshing VS Code extensions list";
+  code --list-extensions > "$DOTFILES/vscode/vscode_extensions";
+}
+
 
 # Use ZSH plugins

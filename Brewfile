@@ -13,20 +13,14 @@ brew "exa"
 brew "freetds"
 # Distributed revision control system
 brew "git"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
 # Core application library for C
 brew "glib"
-# GNU Ubiquitous Intelligent Language for Extensions
-brew "guile"
-# HTTP/2 C Library
-brew "nghttp2"
 # Validating, recursive, caching DNS resolver
 brew "unbound"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.10"
+# GNU Ubiquitous Intelligent Language for Extensions
+brew "guile"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Lightweight and flexible command-line JSON processor
@@ -39,21 +33,34 @@ brew "libiconv"
 brew "libpq"
 # Mac App Store command-line interface
 brew "mas"
+# HTTP/2 C Library
+brew "nghttp2"
 # Platform built on V8 to build network applications
 brew "node"
 # General-purpose scripting language
-#brew "php@7.3"
-# General-purpose scripting language
 brew "php@8.0", link: true
 # Object-relational database system
-brew "postgresql", restart_service: true
+brew "postgresql@14", restart_service: true
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # Tool Command Language
 brew "tcl-tk"
 # Command-line helper for the 1Password password manager
 cask "1password-cli"
-# Web browser
-#cask "google-chrome"
 # Open-source code editor
 cask "visual-studio-code"
-#mas "Microsoft Excel", id: 462058435
-#mas "Microsoft Word", id: 462054704
+vscode "Angular.ng-template"
+vscode "bmewburn.vscode-intelephense-client"
+vscode "bradlc.vscode-tailwindcss"
+vscode "cjhowe7.laravel-blade"
+vscode "cyrilletuzi.angular-schematics"
+vscode "dbaeumer.vscode-eslint"
+vscode "DotJoshJohnson.xml"
+vscode "eamodio.gitlens"
+vscode "esbenp.prettier-vscode"
+vscode "mikestead.dotenv"
+vscode "octref.vetur"
+vscode "philnash.ngrok-for-vscode"
+vscode "ritwickdey.LiveServer"
