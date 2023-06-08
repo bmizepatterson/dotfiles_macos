@@ -49,8 +49,17 @@ brew "python@3.9"
 brew "tcl-tk"
 # Command-line helper for the 1Password password manager
 cask "1password-cli"
+# Web browser
+cask "firefox"
 # Open-source code editor
 cask "visual-studio-code"
+# Video communication and virtual meeting platform
+cask "zoom"
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 vscode "Angular.ng-template"
 vscode "bmewburn.vscode-intelephense-client"
 vscode "bradlc.vscode-tailwindcss"
